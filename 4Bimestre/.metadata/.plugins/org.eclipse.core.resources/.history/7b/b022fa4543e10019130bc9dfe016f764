@@ -1,0 +1,16 @@
+import java.util.*;
+public class Exercicio_9_Interseccao {
+public static void main (String [] args) {
+	Scanner leia = new Scanner (System.in);
+	 int a[] = new int [10];
+	 int b[] = new int [10];
+	 int c[] = new int [10];
+	 int i, j;
+	 for(i =0; i<10; i++) {
+		 System.out.printf("Informe o %d do vetor A", (i+1));
+		 a[i] = leia.nextInt();
+		 System.out.printf("Informe o %d do vetor B", (i+1));
+		 a[i] = leia.nextInt();
+	 }
+}
+}

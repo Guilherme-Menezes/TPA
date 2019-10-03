@@ -1,0 +1,17 @@
+import java.util.*;
+public class Exercicio_5_Divisiveis {
+public static void main (String [] args) {
+	Scanner leia = new Scanner (System.in);
+	int a[] = new int [10];
+	int i, t, r;
+	for(i=0, t=0; i<10; i++) {
+		a[i] = leia.nextInt();
+		r = a[i]%t;
+		System.out.printf("%d = {",a[i]);
+		if(r == 0) {
+			System.out.printf("%d ",t);
+		}
+		t++;
+}
+}
+}

@@ -1,0 +1,33 @@
+import java.util.*;
+public class Exercicio_1_Par_e_Impar {
+public static void main (String [] args ) {
+	Scanner leia = new Scanner (System.in);
+	int A[] = new int [5];
+	int i, tp, tip, impar = 0 , par =0 , B[] = new int [20];
+	
+	for (i=0; i<5; i++) {
+		System.out.println("Escreva o "+(i+1)+" numero");
+		A[i] = leia.nextInt();
+		if (A[i]% 2 == 0 ) {
+			par++;
+			
+		}else{
+			impar++;
+			
+		}
+	
+	
+	
+	}
+	tp = 5 - impar;
+	tip = 5- tp;
+	System.out.println(tip);
+	for (i =0; tip = tip; tip<5; tip++, i++) {
+		B[tip] = A[i];
+		System.out.println(B[tip]);
+		
+	}
+
+	}
+}
+

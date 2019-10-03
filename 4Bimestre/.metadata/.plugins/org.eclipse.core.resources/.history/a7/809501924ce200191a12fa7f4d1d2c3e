@@ -1,0 +1,18 @@
+import java.util.*;
+public class Exercicio_14_C_Regras_De_Formacao {
+public static void main (String [] args) {
+	Scanner leia = new Scanner (System.in);
+	int a[] = new int [10];
+	int b[] = new int [10];
+	int c[] = new int [10];
+	int i;
+	
+	for(i= 0; i<10; i++) {
+		System.out.println("Insira o "+(i+1)+" numero do vetor A");
+		a[i] = leia.nextInt();
+		System.out.println("Insira o "+(i+1)+" numero do vetor B");
+		b[i] = leia.nextInt();
+		System.out.println("/////////////////");
+	}
+}
+}

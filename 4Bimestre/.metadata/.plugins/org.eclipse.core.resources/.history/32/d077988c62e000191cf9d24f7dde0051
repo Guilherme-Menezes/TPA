@@ -1,0 +1,10 @@
+import java.util.*;
+public class Exercicio_1_Par_e_Impar {
+public static void main (String [] args ) {
+	Scanner leia = new Scanner (System.in);
+	int A[] = new int [20];
+	int i , B[] = new int [20];
+	
+	For (i=0; i<20; i++)
+}
+}

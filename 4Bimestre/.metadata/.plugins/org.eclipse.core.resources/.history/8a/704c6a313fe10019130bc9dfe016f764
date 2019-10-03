@@ -1,0 +1,17 @@
+import java.util.*;
+public class Exercicio_7_Fatorial {
+public static void main (String [] args) {
+	Scanner leia = new Scanner (System.in);
+	int a[] = new int [15];
+	int i, j, aux = 1, auxf;
+	for (i =0; i<15; i++) {
+		System.out.println("Coloque o nome");
+		a[i] = leia.nextInt();
+		for(j = 1; j<=a[i]; j++) {
+			auxf =  aux*i;
+			aux = auxf;
+		}
+		System.out.println("a["+(i+1)+"] = "+auxf);
+	}
+}
+}

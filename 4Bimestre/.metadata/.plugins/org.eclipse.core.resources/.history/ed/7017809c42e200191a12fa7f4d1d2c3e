@@ -1,0 +1,12 @@
+import java.util.*;
+public class Exercicio_11_Rotina_Busca {
+public static void main (String [] args) {
+	Scanner leia = new Scanner (System.in);
+	int a[] = new int[5];
+	int i, n;
+	for (i = 0; i<5; i++) {
+		System.out.println("Informe o numero que será colocado na "+i+" posição");
+		a[i] = leia.nextInt();
+	}
+}
+}

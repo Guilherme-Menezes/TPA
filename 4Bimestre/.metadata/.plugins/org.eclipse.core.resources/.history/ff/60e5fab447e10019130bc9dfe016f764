@@ -1,0 +1,33 @@
+import java.util.*;
+public class Exercicio_9_Interseccao {
+public static void main (String [] args) {
+	Scanner leia = new Scanner (System.in);
+	 int a[] = new int [5];
+	 int b[] = new int [5];
+	 int c[] = new int [5];
+	 int i, j;
+	 for(i =0; i<5; i++) {
+		 System.out.printf("Informe o %d numero do vetor A\n", (i+1));
+		 a[i] = leia.nextInt();
+		 System.out.printf("Informe o %d numero do vetor B\n", (i+1));
+		 b[i] = leia.nextInt();
+	 }
+	 i = 0;
+	 for(j=0;j<5; j++) {
+		 System.out.println(j);
+		 if(b[i] == a[j]  ) {
+			 c[j] = a[j];
+			 j++;
+		}else {
+			 i++;
+		 }
+		 System.out.println(j);
+		 }
+	 System.out.print("C[ ");
+	 for(j=0;j<5; j++) {
+		 System.out.printf(" %d ",c[j]);
+		 
+	 }
+	 System.out.println("]");
+}
+}

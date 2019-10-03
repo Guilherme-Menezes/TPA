@@ -1,0 +1,8 @@
+import java.util.*;
+public class Exercicio_3_Primo {
+public static void main (String [] args) {
+	Scanner leia = new Scanner (System.in);
+	int i, p = 0, a[i] = new int [10];
+	
+}
+}

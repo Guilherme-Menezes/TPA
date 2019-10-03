@@ -1,0 +1,11 @@
+import java.util.Scanner;
+
+public class Exercicio_2_Tabuada {
+	public static void main (String [] args ) {
+		Scanner leia = new Scanner (System.in);
+		int a[] = new int [5];
+		
+		
+		
+}
+}

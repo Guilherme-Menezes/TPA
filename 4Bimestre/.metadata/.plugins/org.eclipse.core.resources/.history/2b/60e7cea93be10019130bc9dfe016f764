@@ -1,0 +1,6 @@
+import java.util.*;
+public class Exercicio_6_potencia {
+public static void main ( String [] args ) {
+	Scanner leia = new Scanner (System.in);
+}
+}

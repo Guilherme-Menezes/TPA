@@ -1,0 +1,21 @@
+import java.util.*;
+public class Exercicio_15_Crescente_Descrescentes {
+public static void main (String [] args ) {
+	Scanner leia = new Scanner (System.in);
+	int A[] = new int [5];
+	int B[] = new int [5];
+	int C[] = new int [5];
+	int  aux = 0, ns, i = 0, f;
+	for (ns = 0; ns<5; ns++) {
+		System.out.printf("Fale o %d numero\n",ns+1);
+		A[ns] = leia.nextInt();
+	
+	}
+		Arrays.sort(A);
+		for(i = 0; i<5; i++) {
+			System.out.print(B[i]" ");
+		
+	}
+	
+}
+}

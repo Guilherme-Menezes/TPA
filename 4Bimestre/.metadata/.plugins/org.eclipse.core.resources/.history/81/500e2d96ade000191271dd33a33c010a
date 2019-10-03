@@ -1,0 +1,8 @@
+import java.util.*;
+public class Exercicio_5_Divisiveis {
+public static void main (String [] args) {
+	Scanner leia = new Scanner (System.in);
+	int a[] = new int [10];
+	int i, r;
+}
+}

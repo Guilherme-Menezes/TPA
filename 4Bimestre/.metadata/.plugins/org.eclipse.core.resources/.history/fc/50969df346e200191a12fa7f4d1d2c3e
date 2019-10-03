@@ -1,0 +1,11 @@
+import java.util.*;
+public class Exercicio_12_palíndromos {
+public static void main (String [] args) {
+	Scanner leia = new Scanner (System.in);
+	int a[] = new int [10];
+	int i, j;
+	for (i=0; i<10; i++) {
+		System.out.println();
+	}
+}
+}
