@@ -2,9 +2,9 @@ import java.util.*;
 public class Exercicio_15_Crescente_Descrescentes {
 public static void main (String [] args ) {
 	Scanner leia = new Scanner (System.in);
-	int A[] = new int [5];
-	int B[] = new int [5];
-	int C[] = new int [5];
+	int A[] = new int [10];
+	int B[] = new int [10];
+	int C[] = new int [10];
 	int  aux = 0, ns, i = 0, f;
 	for (ns = 0; ns<5; ns++) {
 		System.out.printf("Fale o %d numero\n",ns+1);
@@ -19,7 +19,7 @@ public static void main (String [] args ) {
 			
 	}
 		System.out.println(" }");
-		System.out.print("Descrescente{ ");
+		System.out.print("Decrescente{ ");
 		i=0;
 		for(f=4; f>=0; f--) {
 			C[f] = A[i];

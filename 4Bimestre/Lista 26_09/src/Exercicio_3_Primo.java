@@ -2,8 +2,8 @@ import java.util.*;
 public class Exercicio_3_Primo {
 public static void main (String [] args) {
 	Scanner leia = new Scanner (System.in);
-	int i,r, p =0, j, a[] = new int [5];
-	for (i = 0; i<5; i++ ) {
+	int i,r, p =0, j, a[] = new int [10];
+	for (i = 0; i<10; i++ ) {
 		System.out.println("Coloque o numero");
 		a[i] = leia.nextInt();
 		for(j=1, p=0; j<a[i];j++) {

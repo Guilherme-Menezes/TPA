@@ -1,0 +1,8 @@
+import java.util.*;
+public class Exercicio_8_Somatorio {
+public static void main (String [] args) {
+	Scanner leia = new Scanner (System.in);
+	int A[] =  new int [10];
+	int B[] = new int 
+}
+}

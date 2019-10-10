@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercicio_1_Par_e_Impar",
+            "request": "launch",
+            "mainClass": "Exercicio_1_Par_e_Impar",
+            "projectName": "Lista 26_09"
+        }
+    ]
+}

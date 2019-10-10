@@ -1,0 +1,14 @@
+import java.util.*;
+public class Exercicio_8_Somatorio {
+public static void main (String [] args) {
+	Scanner leia = new Scanner (System.in);
+	int a[] =  new int [10];
+	int b[] = new int [10];
+	int i, j, soma;
+	
+	for(i = 0; i<10; i++) {
+		System.out.println("Escreva o numero da "+(i+1)+" posição");
+		a[i] = leia.nextInt();
+	}
+}
+}

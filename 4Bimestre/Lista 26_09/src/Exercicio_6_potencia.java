@@ -5,11 +5,11 @@ public static void main ( String [] args ) {
 	int i, j, aux, a[] = new int [11];
 	for (i=0; i<11; i++) {
 	
-		aux = 1;
+		a[i] = 2;
 		for(j=0; j<i;j++ ) {
-			aux = aux*2;
+            a[i] = a[i]*2;
 		}
-		System.out.println("a["+(i+1)+"] = "+aux);
+		System.out.println("a["+(i+1)+"] = "+a[i]);
 	}
 }
 }

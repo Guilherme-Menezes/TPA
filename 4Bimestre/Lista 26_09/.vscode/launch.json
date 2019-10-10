@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Exercicio_6_potencia",
+            "request": "launch",
+            "mainClass": "Exercicio_6_potencia",
+            "projectName": "Lista 26_09"
+        }
+    ]
+}
