@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
+	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\Users\Familia\Documents\GitHub\TPA\4Bimestre"/>
+	</list>
 	<section name="WORKBENCH_SETTINGS">
 		<list key="ENABLED_TRANSFERS">
 		</list>
 	</section>
 	<section name="ChooseWorkspaceDialogSettings">
-		<item value="497" key="DIALOG_X_ORIGIN"/>
-		<item value="251" key="DIALOG_Y_ORIGIN"/>
+		<item key="DIALOG_X_ORIGIN" value="497"/>
+		<item key="DIALOG_Y_ORIGIN" value="251"/>
 	</section>
 </section>

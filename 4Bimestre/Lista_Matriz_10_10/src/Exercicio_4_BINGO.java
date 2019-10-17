@@ -3,13 +3,14 @@ public class Exercicio_4_BINGO {
 public static void main (String [] args) {
 	Scanner leia = new Scanner (System.in);
 	Random ram = new Random();
-	int lin, col, t =0, r, p = 0;
+	int lin, col, t =0, r, p = 0, n = 16;
 	int m[][] = new int [4][4];
 	for(lin = 0; lin<4; lin++) {
 		for(col=0; col<4; col++) {
-			m[lin][col] = ram.nextInt(10);
+			m[lin][col] = ram.nextInt(75);
 		}
 	}
+	
 	
 	do {
 		System.out.println("Entre o numero");
@@ -19,6 +20,8 @@ public static void main (String [] args) {
 			for(col=0; col<4; col++) {
 				if(r == m[lin][col]) {
 					p++;
+					n--;
+					System.out.println("Você conseguiu um numero, falta "+n+" numeros");
 				}
 			}
 		}
@@ -34,4 +37,5 @@ public static void main (String [] args) {
 		}
 	}
 }
-} 
+}
+}
