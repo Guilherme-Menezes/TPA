@@ -1,0 +1,38 @@
+import java.util.*;
+public class Bonus_Matriz_Triangulo {
+public static void main (String [] args) {
+	Random leia = new Random ();
+	int lin, col, i = 0;
+	int m[][]  = new int [5][5];
+	
+	for(lin = 0; lin<5; lin++) {
+		for(col=0; col<5; col++) {
+			m[lin][col] = leia.nextInt(1);
+			
+		}
+	}
+	
+	for(lin = 0; lin<5; lin++) {
+		for(col=0; col<5; col++) {
+			System.out.print("["+m[lin][col]+"]");
+			if(col == 4) {
+				System.out.print("\n");
+			}
+			
+		}
+		
+	}
+	
+
+	for(lin = 0; lin<5; lin++) {
+		for(col=0; col<5; col++) {
+			if(col == i && lin == i) {
+				m[lin][lin] = 1;
+			}
+				}
+	
+		}
+	
+	
+}
+}

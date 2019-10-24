@@ -1,0 +1,25 @@
+import java.util.*;
+public class Exercicio_4_Matriz_Diagonal {
+public static void main (String [] args) {
+	Scanner leia = new Scanner (System.in);
+	int i, lin, col;
+	int m[][] = new int [5][5];
+	
+	for(lin = 0; lin<5; lin++) {
+		for(col=0; col<5; col++) {
+			m[lin][col] = 0;
+			
+		}
+	}
+
+	for(lin = 0; lin<5; lin++) {
+		for(col=0; col<5; col++) {
+			for(i = 0, j = 4; j>0, i<0; i++,j++) {
+				
+			}
+			
+}
+	}
+}
+}
+

@@ -7,7 +7,7 @@ public static void main (String [] args) {
 	int m[][] = new int [4][4];
 	for(lin = 0; lin<4; lin++) {
 		for(col=0; col<4; col++) {
-			m[lin][col] = ram.nextInt(75);
+			m[lin][col] = ram.nextInt(75)+1;
 		}
 	}
 	
@@ -38,4 +38,4 @@ public static void main (String [] args) {
 	}
 }
 }
-}
+

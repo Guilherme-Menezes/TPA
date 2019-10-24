@@ -1,0 +1,19 @@
+import java.util.*;
+public class Exercicio_1_Metodo_Quarta {
+public static void Main (String [] args) {
+	Scanner leia = new Scanner (System.in);
+	int n;
+	quarta(n);
+	System.out.println();
+	
+}
+
+public static void quarta(int a) {
+	int i = 1;
+	int aux = a;
+	for(i = 1; i<=4; i++) {
+		aux = aux*a;
+	}
+	a = aux;
+}
+}
