@@ -1,0 +1,53 @@
+import java.util.*;
+public class Exercicio_2 {
+public static void main (String[]args) {
+	Scanner leia = new Scanner (System.in);
+	double v;
+	int parcela;
+	System.out.println("Quanto você gastou");
+	v = leia.nextDouble();
+	switch(Menu()){
+		case 1:
+			System.out.println("O valor será "+Dezporcento(v)+" reais");
+			break;
+		case 2:
+			System.out.println("O valor total será "+v+" reais e cada parcela será de "+Duasvezes(v)+" reais");
+			break;
+		case 3:
+			parcela = leia.nextInt();
+			if(parcela<3 || parcela>10) {
+				Menu();
+			}
+	}
+}
+
+
+
+public static int Menu() {
+		Scanner leia = new Scanner (System.in);
+		int r;
+		System.out.println("Forma de pagamento\n"
+				+ "1-A vista com 10% de desconto\n"
+				+ "2-Em duas vezes(preço da etiqueta)\n"
+				+ "3-Parcelado de 3 até 10 vezes");
+		r = leia.nextInt();
+		return r;
+	}
+
+
+public static double Dezporcento(double v) {
+	    double r = v-((v*10)/100);
+	    return r;
+ }
+
+
+public static double Duasvezes(double v) {
+	double r;
+	r = v/2;
+	return r;
+}
+
+
+}
+
+

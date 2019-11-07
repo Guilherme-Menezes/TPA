@@ -1,42 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="WorkbenchPreferenceDialogSettings">
-		<item key="DIALOG_X_ORIGIN" value="98"/>
-		<item key="DIALOG_Y_ORIGIN" value="42"/>
+		<item value="98" key="DIALOG_X_ORIGIN"/>
+		<item value="42" key="DIALOG_Y_ORIGIN"/>
 	</section>
 	<section name="org.eclipse.ui.preferences.keysPreferencePage">
-		<item key="actionSetFilter" value="true"/>
-		<item key="uncategorizedFilter" value="true"/>
-		<item key="internalFilter" value="true"/>
+		<item value="true" key="actionSetFilter"/>
+		<item value="true" key="uncategorizedFilter"/>
+		<item value="true" key="internalFilter"/>
 	</section>
 	<section name="org.eclipse.ui.internal.QuickAccess">
-		<item key="dialogHeight" value="788"/>
-		<item key="dialogWidth" value="969"/>
+		<item value="-1" key="dialogHeight"/>
+		<item value="-1" key="dialogWidth"/>
 		<list key="textEntries">
-			<item value="1"/>
-			<item value="1"/>
 		</list>
 		<list key="orderedElements">
-			<item value="org.eclipse.ui.navigator.ProjectExplorer"/>
-			<item value="org.eclipse.ui.preferencePages.ColorsAndFonts"/>
 		</list>
 		<list key="orderedProviders">
-			<item value="org.eclipse.e4.ui.parts"/>
-			<item value="org.eclipse.ui.preferences"/>
 		</list>
 		<list key="textArray">
-			<item value="ex"/>
-			<item value="colo"/>
 		</list>
 	</section>
 	<section name="PreferencesImportWizard">
-		<item key="" value="C:\Users\Aluno\Downloads\theme-1.epf"/>
+		<item value="C:\Users\Aluno\Downloads\theme-1.epf" key=""/>
 		<list key="WizardPreferencesExportPage1.STORE_DESTINATION_NAMES_ID">
 			<item value="C:\Users\Aluno\Downloads\theme-1.epf"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">
-		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ExternalProject"/>
+		<item value="org.eclipse.ui.wizards.import.ExternalProject" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.ui.Basic"/>
 		</list>

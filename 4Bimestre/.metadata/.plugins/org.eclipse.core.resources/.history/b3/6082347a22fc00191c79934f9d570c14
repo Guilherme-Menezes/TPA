@@ -1,0 +1,29 @@
+import java.util.*;
+public class Uri {
+public static void main (String [] args) {
+	Scanner leia = new Scanner (System.in);
+	int soma=0,i, n1, n2;
+	do {
+		n1 = leia.nextInt(); n2 = leia.nextInt();
+		if(n2 == 0 ) {
+			break;
+		}
+		if(n1>n2) {
+			for(i=n2;i<=n1;i++) {
+				System.out.print(i+" ");
+				soma = soma+i;
+				
+			}
+			System.out.println("Sum="+soma);
+		}else {
+			for(i=n1;i<=n1;i++) {
+				System.out.print(i+" ");
+				soma = soma+i;
+			}
+			System.out.println("Sum="+soma);
+		}
+	
+	
+	}while(n2!=0);
+}
+}

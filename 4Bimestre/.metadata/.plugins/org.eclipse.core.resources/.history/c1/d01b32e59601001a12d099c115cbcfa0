@@ -1,0 +1,23 @@
+import java.util.*;
+public class Exercicio_2 {
+public static void main (String[]args) {
+	
+	switch(Menu()){
+		case 1:
+			System.out.println("jsnhjshja");
+	}
+}
+
+
+
+public static int Menu() {
+		Scanner leia = new Scanner (System.in);
+		int r;
+		System.out.println("Forma de pagamento\n"
+				+ "1-A vista com 10% de desconto\n"
+				+ "2-Em duas vezes(preço da etiqueta)\n"
+				+ "Parcelado de 3 até 10 vezes");
+		r = leia.nextInt();
+		return r;
+	}
+}
